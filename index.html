@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive Rating Component" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Interactive Rating Component</title>
+  </head>
+  <body>
+    <main>
+      <form id="rating-form">
+        <img
+          src="assets/images/star-icon.svg"
+          alt="Orange star icon"
+          class="form__logo"
+        />
+        <h1 class="form__title">How did we do?</h1>
+        <p class="form__text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <ol class="form__list">
+          <li>
+            <input type="radio" name="rating" value="1" id="rating1" />
+            <label for="rating1">1</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" value="2" id="rating2" />
+            <label for="rating2">2</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" value="3" id="rating3" />
+            <label for="rating3">3</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" value="4" id="rating4" />
+            <label for="rating4">4</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" value="5" id="rating5" />
+            <label for="rating5">5</label>
+          </li>
+        </ol>
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
