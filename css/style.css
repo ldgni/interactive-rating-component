@@ -5,10 +5,10 @@
     #232a34 0%,
     #181e27 100%
   );
-  --clr-title: #fff;
+  --clr-heading: #fff;
   --clr-text: #969fad;
 
-  --ff-base: "Overpass", sans-serif;
+  --ff-primary: "Overpass", sans-serif;
   --fs-base: 0.875rem;
   --fw-base: 400;
 }
@@ -63,7 +63,7 @@ button {
 
 body {
   background-color: var(--clr-bg);
-  font-family: var(--ff-base);
+  font-family: var(--ff-primary);
   font-size: var(--fs-base);
   font-weight: var(--fw-base);
   color: var(--clr-text);
@@ -95,7 +95,7 @@ form {
 }
 
 .form__title {
-  color: var(--clr-title);
+  color: var(--clr-heading);
   font-size: 1.5rem;
   margin-bottom: 0.63rem;
 }
@@ -190,7 +190,7 @@ button:disabled:is(:hover, :focus) {
 }
 
 .confirmation__title {
-  color: var(--clr-title);
+  color: var(--clr-heading);
   font-size: 1.5rem;
   margin-bottom: 0.63rem;
 }
