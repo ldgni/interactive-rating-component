@@ -123,10 +123,11 @@ label {
   text-align: center;
   line-height: 1.5rem;
   letter-spacing: 0.01094rem;
-  padding: 0.58rem 1.08rem 0.54rem 1.13rem;
+  padding: 0.55rem 1.1rem;
   border: none;
   border-radius: 50%;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 label:hover {
@@ -150,6 +151,7 @@ button {
   padding: 0.75rem 0;
   width: 100%;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 button:is(:hover, :focus) {
@@ -179,6 +181,7 @@ button:disabled:is(:hover, :focus) {
 
 .confirmation__selection {
   background-color: #262e38;
+  text-align: center;
   border-radius: 1.40625rem;
   color: #fc7614;
   line-height: 1.375rem;
@@ -228,7 +231,7 @@ button:disabled:is(:hover, :focus) {
 
   label {
     font-size: 1rem;
-    padding: 0.81rem 1.31rem 0.88rem 1.38rem;
+    padding: 0.85rem 1.35rem;
   }
 
   button {
@@ -246,6 +249,7 @@ button:disabled:is(:hover, :focus) {
 
   .confirmation__selection {
     font-size: 0.9375rem;
+    padding: 0.25rem 1.2rem;
     line-height: 1.5rem;
     margin-bottom: 2rem;
   }
